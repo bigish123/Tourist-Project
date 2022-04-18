@@ -1,53 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, Initial- 
      scale=1">
     <title>Contact us</title>
 
-    
-<!--------- Refrenced style sheets -------------------------->     
-    <link href="CSS Style Sheet.css" rel="stylesheet" type="text/css" />
+<!-- Refrenced style sheets -->        
+    <link href="CSS-Style-Sheet.css" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
+  </head>  
+<body>
 
-  
-<!----------------------- Hero Image  -------------------->
-<body>  
- <div class="hero-image">
+<!-- Header with Hero Image --> 
+ <header class="hero-image">
   <div class="hero-text">
     <h1>We hope you visit us soon!</h1>
   </div>
       <div class="hero-text-top">
-       <h4>Villa-Travels, LLC</h4>       
+       <p>Villa-Travels, LLC</p>       
       <img src="https://d368g9lw5ileu7.cloudfront.net/races/race68999-logo.bDhJNM.png" alt="queen city" class="herocrown">
       </div>
- </div>
-    
-      
-<!--------------- navigation bar----------------------------->
-<div class="topnav">
-    <a href="index.html">Home</a>
-    <a href="What to do.html">What to do?</a>
-    <a href="Contact Us.html">Contact</a>
-</div>
+ </header>
+        
+<!-- Navigation Bar -->
+<nav class="topnav">
+   <a href="index.html">Home</a>
+   <a href="todo.html">What to do?</a>
+   <a href="contactus.html">Contact</a>
+</nav>
 
-
-<!---------- contact us table & Title -------------------------->
-<h1 id="contactus">Contact Us</h1>
-  
+<!-- Video on left side of page -->
+<article> 
+  <h2 id="contactus">Contact Us</h2> 
   <div class="column">
-     <iframe width="85%" height="450px"  src="https://www.youtube.com/embed/y2eYBpcnmj4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-     </iframe>
+     <iframe width="650" height="460"  src="https://www.youtube.com/embed/y2eYBpcnmj4" title="YouTube video player" style="border:0;" allowfullscreen></iframe>
   </div>  
-  
+</article> 
+
+<!-- Input form on right side of page -->  
+<aside>  
 <div class=column>
   <div class="row">
-    <!-- <form action=""> to direct info to specific page -->
-  <label for="firstname">Full Name</label>
-    <input type="text" id="finame" name="firstname" 
-       placeholder="ex.James Perez">
+  <label id="firstname">Full Name</label>
+    <input type="text" id="Firstname" placeholder="ex.James Perez">
   <label for="phnumber">Phone Number</label>
     <input type="text" id="phnumber" name="phonenumber" 
        placeholder="(xxx)-xxx-xxxx">
@@ -56,40 +52,37 @@
        placeholder="jamesperez@gmail.com">
   <label for="country">Country</label>
   <select id="country" name="country">
-      <option value="select"></option>
+      <option value="select">select</option>
       <option value="usa">USA</option>
       <option value="canada">Canada</option>
       <option value="mexico">Mexico</option>
   </select>
-  <label for="State">State</label>
-  <select id="state" name="state">
-      <option value="select"></option>
+  <label>State</label>
+  <select>
+      <option value="select">select</option>
       <option value="NC">North Carolina</option>
       <option value="VA">Virginia</option>
       <option value="GA">Georgia</option>
       <option value="TX">Texas</option>
-  <label for="Comment">Comment</label>
-  <textarea id="comment" name="comment" placeholder="Ask away.." 
-      style="height:170px"></textarea>
-      <input type="submit" value="submit">
-  </select>
+  </select>  
+  <label>comment</label>
+  <textarea placeholder="comments or questions" style="height:170px"></textarea>
+      <input type="submit" value="submit"> 
   </div>
 </div>
+</aside>
 
-
-<!----------------- Page Footer -------------------------------->
-<div class="footer">
-<img src="https://d368g9lw5ileu7.cloudfront.net/races/race68999-logo.bDhJNM.png" alt="queen city" height="140px">
-    <h6>Copyright <small>&copy;</small> 2021 Villa-Travels, LLC 
-        Charlotte, NC</h6>
+<!-- Footer -->  
+<footer class="footer">
+  <img src="https://d368g9lw5ileu7.cloudfront.net/races/race68999-logo.bDhJNM.png" id="footer-image" alt="queen city">
+    <p>Copyright <small>&copy;</small> 2021 Villa-Travels, LLC Charlotte, NC</p>
   <figure class="symbols">
-     <a href="https://www.facebook.com/clt.stories/" 
-        target="_blank" class="fa fa-facebook"></a>
-     <a href="https://twitter.com/cltgov?lang=en"  
-        target="_blank"class="fa fa-twitter"></a>
-     <a href="https://www.instagram.com/charlottesgotalot/?hl=en"        target="_blank" class="fa fa-instagram"></a>
+     <a href="https://www.facebook.com/clt.stories/" target="_blank" aria-label="Facebook" class="fa fa-facebook"></a>
+     <a href="https://twitter.com/cltgov?lang=en" target="_blank" aria-label="Twitter" class="fa fa-twitter"></a>
+     <a href="https://www.instagram.com/charlottesgotalot/?hl=en" target="_blank" aria-label="Instagram" class="fa fa-instagram"></a>
   </figure>
-</div>
-    <script src="script.js"></script>
+</footer>
+
  </body>
+  
 </html>

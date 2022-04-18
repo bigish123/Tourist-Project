@@ -1,70 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, Initial- 
      scale=1">
     <title>Queen City</title>
-<!--------- Refrenced style sheets -------------------------->
-    <link href="CSS Style Sheet.css" rel="stylesheet" type="text/css" />
+
+<!-- Refrenced style sheets -->    
+    <link href="CSS-Style-Sheet.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
+<body>
 
-  
-<!----------------------- Hero Image  -------------------->
-<body>    
- <div class="hero-image">
+<!-- Header with Hero Image -->
+ <header class="hero-image">
   <div class="hero-text">
     <h1>Welcome to Charlotte, NC</h1>
   </div>
       <div class="hero-text-top">
-       <h4>Villa-Travels, LLC</h4>       
+       <p>Villa-Travels, LLC</p>       
       <img src="https://d368g9lw5ileu7.cloudfront.net/races/race68999-logo.bDhJNM.png" alt="queen city" class="herocrown">
       </div>
- </div>
+</header>    
 
-    
-
-<!--------------- navigation bar----------------------------->
-<div class="topnav">
+<!-- Navigation Bar -->
+<nav class="topnav">
    <a href="index.html">Home</a>
-   <a href="What to do.html">What to do?</a>
-   <a href="Contact Us.html">Contact</a>
-</div>
+   <a href="todo.html">What to do?</a>
+   <a href="contactus.html">Contact</a>
+</nav>
 
-
-
-      
-<!-----------------images on body & Title  -------------------->
+<!-- Main information pictures and facts -->  
+<main>
 <h1 id="queenheader">Fun Facts!</h1>
   <div class="map">
    <div class="img-col">
-     <img src="images/Charlotte-NC.jpg" width="80%">
+     <img src="images/Charlotte-NC.jpg" id="map" alt="map view">
         <br>
-     <img src="images/clt.jpg" width="80%">
+     <img src="images/clt.jpg" alt="Charlotte view" id="below-map">
    </div>
-
-<!------------- Facts on body --------------------------> 
     <ul class="text-col">       
-        <strong><li>Population as of 2022: 2,204,000 residents</li><br>
-        <li>The city of Charlotte is named after  Princess Charlotte Sophia  of Mecklenburg-Strelitz, who was the Queen of Great                   Britain at the time the town was founded (1768).</li><br>
-        <li>The first significant Gold Rush in the United States occurred in Cabarrus County(east of Charlotte) in 1799.</li><br>
-        <li>Today, Charlotte remains the second-largest financial hub in the United States-the Queen City of Finance.</li><br>
-        <li>Charlotte, NC was one of the cities where the first Hunger Games movie was filmed.</li></strong><br>
+        <li>Population as of 2022: 2,204,000 residents</li>
+        <li>The city of Charlotte is named after  Princess Charlotte Sophia  of Mecklenburg-Strelitz, who was the Queen of Great Britain at the time the town was founded (1768).</li>
+        <li>The first significant Gold Rush in the United States occurred in Cabarrus County(east of Charlotte) in 1799.</li>
+        <li>Today, Charlotte remains the second-largest financial hub in the United States-the Queen City of Finance.</li>
+        <li>Charlotte, NC was one of the cities where the first Hunger Games movie was filmed.</li>
     </ul>
-</div>
- 
-<!----------------- Page Footer -------------------------------->
-<div class="footer">
-<img src="https://d368g9lw5ileu7.cloudfront.net/races/race68999-logo.bDhJNM.png" alt="queen city" height="140px">
-    <h6>Copyright <small>&copy;</small> 2021 Villa-Travels, LLC 
-        Charlotte, NC</h6>
+  </div>
+</main> 
+
+<!-- Footer -->
+<footer class="footer">
+  <img src="https://d368g9lw5ileu7.cloudfront.net/races/race68999-logo.bDhJNM.png" id="footer-image" alt="queen city">
+    <p>Copyright <small>&copy;</small> 2021 Villa-Travels, LLC Charlotte, NC</p>
   <figure class="symbols">
-     <a href="https://www.facebook.com/clt.stories/" target="_blank" class="fa fa-facebook"></a>
-     <a href="https://twitter.com/cltgov?lang=en" target="_blank"class="fa fa-twitter"></a>
-     <a href="https://www.instagram.com/charlottesgotalot/?hl=en" target="_blank" class="fa fa-instagram"></a>
+     <a href="https://www.facebook.com/clt.stories/" target="_blank" aria-label="Facebook" class="fa fa-facebook"></a>
+     <a href="https://twitter.com/cltgov?lang=en" target="_blank" aria-label="Twitter" class="fa fa-twitter"></a>
+     <a href="https://www.instagram.com/charlottesgotalot/?hl=en" target="_blank" aria-label="Instagram" class="fa fa-instagram"></a>
   </figure>
-</div>
-    <script src="script.js"></script>
+</footer>
+
  </body>
+  
 </html>
